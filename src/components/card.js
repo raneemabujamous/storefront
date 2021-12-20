@@ -7,18 +7,18 @@ import CardActions from "@mui/material/CardActions";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
-
-// const useStyles = makeStyles({
-//   root: {
-//     maxWidth: 350,
-//   },
-//   media: {
-//     height: 400,
-//   },
-// });
+import { useSelector, useDispatch } from "react-redux";
+import { addToCart } from "../reducer/actions";
 
 export default function MediaCard(props) {
-  //   const classes = useStyles();
+  const state = useSelector((state) => state);
+  const dispatch = useDispatch();
+  function addToCrtsHandler(productName) {
+    console.log(productName);
+    if (!state.cart.cartProducts.includes(productName)) {
+      dispatch(addToCart(productName));
+    }
+  }
 
   return (
     <>
@@ -34,7 +34,7 @@ export default function MediaCard(props) {
         }}
         // sx={{ maxWidth: 345 }}
       >
-        <CardHeader title={props.product.name} />
+        <CardHeader title={props.product.title} />
         <CardMedia
           component="img"
           width="350px"
@@ -47,11 +47,17 @@ export default function MediaCard(props) {
             {props.product.description}
           </Typography>
           <Typography variant="body2" color="text.secondary">
+            {props.product.inventoryCount}
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
             Price : {props.product.price}
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
-          <IconButton aria-label="add to favorites">
+          <IconButton
+            aria-label="add to favorites"
+            onClick={() => addToCrtsHandler(props.product.title)}
+          >
             <AddShoppingCartIcon />
           </IconButton>
         </CardActions>

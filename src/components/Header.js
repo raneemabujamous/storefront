@@ -44,7 +44,7 @@ export default function CustomizedBreadcrumbs() {
       <Breadcrumbs aria-label="breadcrumb">
         <StyledBreadcrumb
           component="a"
-          href="#"
+          href="/cart"
           label="Home"
           icon={<HomeIcon fontSize="small" />}
         />
