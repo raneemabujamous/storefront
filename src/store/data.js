@@ -22,6 +22,7 @@ export const products = [
     rating: {
       rate: 9.9,
     },
+    inventoryCount: 30,
   },
   {
     title: "necklace 2",
@@ -33,6 +34,7 @@ export const products = [
     rating: {
       rate: 9.6,
     },
+    inventoryCount: 46,
   },
   {
     title: "necklace 3",
@@ -44,6 +46,7 @@ export const products = [
     rating: {
       rate: 8.65,
     },
+    inventoryCount: 57,
   },
   {
     title: "Necklace and Earrings 4",
@@ -55,6 +58,7 @@ export const products = [
     rating: {
       rate: 8.65,
     },
+    inventoryCount: 23,
   },
   {
     title: "Necklace and Earrings 5",
@@ -66,6 +70,7 @@ export const products = [
     rating: {
       rate: 9.66,
     },
+    inventoryCount: 88,
   },
   {
     title: " Provocation Iconic Ring 6 ",
@@ -78,6 +83,7 @@ export const products = [
     rating: {
       rate: 8.68,
     },
+    inventoryCount: 55,
   },
   {
     title: " Earrings 7 ",
@@ -88,6 +94,7 @@ export const products = [
     rating: {
       rate: 7.67,
     },
+    inventoryCount: 66,
   },
   {
     title: " DIAMOND NECKLACE  8 ",
@@ -99,6 +106,7 @@ export const products = [
     rating: {
       rate: 9.6,
     },
+    inventoryCount: 56,
   },
   {
     title: " Diamond Necklace & Ring 9",
@@ -110,6 +118,7 @@ export const products = [
     rating: {
       rate: 6.6,
     },
+    inventoryCount: 30,
   },
   {
     title: " gold rings 10",
@@ -121,6 +130,7 @@ export const products = [
     rating: {
       rate: 8.6,
     },
+    inventoryCount: 70,
   },
   {
     title: "  gold rings  11",
@@ -132,6 +142,7 @@ export const products = [
     rating: {
       rate: 3.6,
     },
+    inventoryCount: 88,
   },
   {
     title: "Pearl Necklace  12",
@@ -144,6 +155,7 @@ export const products = [
     rating: {
       rate: 5.7,
     },
+    inventoryCount: 55,
   },
   {
     title: "Pearl Earrings 13 ",
@@ -155,6 +167,7 @@ export const products = [
     rating: {
       rate: 7.6,
     },
+    inventoryCount: 67,
   },
   {
     title: "Pearl Necklace & Diamond 14 ",
@@ -165,6 +178,7 @@ export const products = [
     rating: {
       rate: 7.6,
     },
+    inventoryCount: 34,
   },
   {
     title: "Pearl Necklace 15",
@@ -176,6 +190,7 @@ export const products = [
     rating: {
       rate: 7.6,
     },
+    inventoryCount: 30,
   },
   {
     title: "Pearl Necklace 16",
@@ -187,6 +202,7 @@ export const products = [
     rating: {
       rate: 9.6,
     },
+    inventoryCount: 44,
   },
   {
     title: "Pearl Necklace 17",
@@ -198,6 +214,7 @@ export const products = [
     rating: {
       rate: 5.6,
     },
+    inventoryCount: 60,
   },
   {
     title: "Bracelet 18",
@@ -209,6 +226,7 @@ export const products = [
     rating: {
       rate: 6.6,
     },
+    inventoryCount: 44,
   },
   {
     title: "Diamond Necklace 19",
@@ -220,6 +238,7 @@ export const products = [
     rating: {
       rate: 6.6,
     },
+    inventoryCount: 32,
   },
   {
     title: "GOLD NECKLACE 20",
@@ -231,6 +250,7 @@ export const products = [
     rating: {
       rate: 6.6,
     },
+    inventoryCount: 55,
   },
 
   {
@@ -243,6 +263,7 @@ export const products = [
     rating: {
       rate: 9.9,
     },
+    inventoryCount: 30,
   },
   {
     title: " Women Dresses 2",
@@ -254,6 +275,7 @@ export const products = [
     rating: {
       rate: 9.6,
     },
+    inventoryCount: 30,
   },
   {
     title: " Jeans High Waist 3",
@@ -266,6 +288,7 @@ export const products = [
     rating: {
       rate: 8.65,
     },
+    inventoryCount: 79,
   },
   {
     title: "woman long jacket 4",
@@ -276,6 +299,7 @@ export const products = [
     rating: {
       rate: 5.65,
     },
+    inventoryCount: 65,
   },
   {
     title: " Women Dresses 5 ",
@@ -288,6 +312,7 @@ export const products = [
     rating: {
       rate: 6.66,
     },
+    inventoryCount: 78,
   },
   {
     title: " Women Dresses Ruffle 6 ",
@@ -300,6 +325,7 @@ export const products = [
     rating: {
       rate: 8.68,
     },
+    inventoryCount: 50,
   },
   {
     title: " Dress Women's 7",
@@ -311,6 +337,7 @@ export const products = [
     rating: {
       rate: 7.67,
     },
+    inventoryCount: 76,
   },
   {
     title: " Sweater For Women Coat 8",
@@ -323,6 +350,7 @@ export const products = [
     rating: {
       rate: 9.6,
     },
+    inventoryCount: 44,
   },
   {
     title: " Women Dresses 9 ",
@@ -334,6 +362,7 @@ export const products = [
     rating: {
       rate: 6.6,
     },
+    inventoryCount: 34,
   },
   {
     title: "  Suit for Women 10",
@@ -345,6 +374,7 @@ export const products = [
     rating: {
       rate: 8.6,
     },
+    inventoryCount: 56,
   },
   {
     title: " woman jacket  11 ",
@@ -356,6 +386,7 @@ export const products = [
     rating: {
       rate: 3.6,
     },
+    inventoryCount: 54,
   },
   {
     title: " Women Dresses 12",
@@ -368,6 +399,7 @@ export const products = [
     rating: {
       rate: 5.7,
     },
+    inventoryCount: 65,
   },
   {
     title: " Women Dresses  13",
@@ -379,6 +411,7 @@ export const products = [
     rating: {
       rate: 9.6,
     },
+    inventoryCount: 65,
   },
   {
     title: "Women Dresses 14",
@@ -390,6 +423,7 @@ export const products = [
     rating: {
       rate: 6.6,
     },
+    inventoryCount: 32,
   },
   {
     title: " woman suit  Casual 15 ",
@@ -401,6 +435,7 @@ export const products = [
     rating: {
       rate: 6.6,
     },
+    inventoryCount: 39,
   },
   {
     title: " woman casual dress 16",
@@ -412,6 +447,7 @@ export const products = [
     rating: {
       rate: 6.6,
     },
+    inventoryCount: 34,
   },
   {
     title: " Women Dress 17 ",
@@ -423,6 +459,7 @@ export const products = [
     rating: {
       rate: 6.6,
     },
+    inventoryCount: 54,
   },
   {
     title: "  woman dress 18",
@@ -434,6 +471,7 @@ export const products = [
     rating: {
       rate: 8.6,
     },
+    inventoryCount: 76,
   },
   {
     title: " Women Dress  19 ",
@@ -445,6 +483,7 @@ export const products = [
     rating: {
       rate: 6.6,
     },
+    inventoryCount: 30,
   },
   {
     title: "  woman dress 20 ",
@@ -457,5 +496,6 @@ export const products = [
     rating: {
       rate: 6.6,
     },
+    inventoryCount: 30,
   },
 ];
